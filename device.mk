@@ -28,6 +28,9 @@ PRODUCT_COPY_FILES += \
 # Fastboot
 TARGET_BOARD_FASTBOOT_INFO_FILE := $(LOCAL_PATH)/fastboot-info.txt
 
+# Gapps for EvoX : from full to mini
+TARGET_USES_MINI_GAPPS := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
